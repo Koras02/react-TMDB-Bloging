@@ -1,0 +1,23 @@
+.movie-list {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* 여러 줄로 표시 */
+}
+
+.movie-item {
+  display: inline-block;
+  width: 200px; /* 영화 항목의 너비 */
+  margin: 10px; /* 여백 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+.movie-item img {
+  width: 100%; /* 이미지 가로 크기 100% */
+  border-radius: 8px; /* 이미지 모서리 둥글게 */
+}
+
+.movie-item h2 {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #333; /* 제목 색상 */
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movie-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+}
+
+.movie-item {
+  margin: 10px;
+  text-align: center;
+  scroll-snap-align: start;
+  cursor: pointer;
+}
+
+.movie-link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-poster {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-title {
+  margin-top: 5px;
+  font-size: 1.1em;
+  text-align: center;
+}
